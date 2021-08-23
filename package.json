@@ -1,0 +1,20 @@
+{
+  "name": "re-hooks-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Mogushkov/re-hooks-backend.git",
+  "author": "Gapur Mogushkov <gapur@mail.ru>",
+  "license": "MIT",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "dependencies": {
+    "forever": "^4.0.1",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.1.1",
+    "koa2-cors": "^2.0.6"
+  }
+}
